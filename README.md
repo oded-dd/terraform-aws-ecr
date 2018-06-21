@@ -33,7 +33,7 @@ There is also a way to create ecr_repository policy and/or ecr_lifecycle_policy:
 
 ```hcl
 module "test-repo" {
-  source = "../../../../opensource/terraform-aws-ecr"
+  source = "github.com/oded-dd/terraform-aws-ecr"
 
   identifier = "test"
 
@@ -65,7 +65,7 @@ EOF
 
 ```hcl
 module "test-repo" {
-  source = "../../../../opensource/terraform-aws-ecr"
+  source = "github.com/oded-dd/terraform-aws-ecr"
 
   identifier = "test"
 
